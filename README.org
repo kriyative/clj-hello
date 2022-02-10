@@ -1,0 +1,15 @@
+#+title: clj-hello
+
+This is a sample repo to help new devs understand the working components of a Clojure project.
+
+See the [[deps.edn]] file for details on the project dependencies, and their configuration settings.
+
+The [[src]] folder contains the source files of the project's Clojure namespaces.
+
+The [[test]] folder contains the test files, and are conditionally added under the =test= alias (or profile) in the deps.edn.
+
+To run tests from the command line, execute:
+
+#+begin_src shell
+  clj -X:test
+#+end_src
