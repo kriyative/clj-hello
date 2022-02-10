@@ -4,4 +4,4 @@
    [hello.core :as core]))
 
 (deftest basic
-  (is (= "me" (core/hello "me"))))
+  (is (= "World" (core/hello "World"))))
